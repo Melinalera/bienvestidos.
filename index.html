@@ -40,33 +40,43 @@
     
 <header>
   
-<nav class="navbar navbar-expand-md navbar-dark background--color">
-  <div class="conteiner-fluid">
-  
-  <!-- Brand -->
-  <a class="navbar-brand" href="index.html"><img src="img/Logo-BIENVESTIDOS.jpg" width="30" height="24" talt=""></a>
-
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler btn btn--color" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link btn--success" href="index.html">inicio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="quienessomos.html">quienes somos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="nuestrosdisenadores.html">Nuestros diseñadores</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-</div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light background--color">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quienessomos.html">quienessomos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html">inicio</a></li>
+              <li><a class="dropdown-item" href="quienessomos.html"></a>quienes somos</li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="nuestrosdisenadores.html">Nuestros disenadores</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    
   
   
 </header>
@@ -76,17 +86,20 @@
     <div id="carouselExampleIndicators" class="carousel slide conteiner__fluid--background " data-bs-ride="carousel">
       
       <div class="carousel-inner">
-        <div class="color-teal">teal</div>
+        <div class="color-teal">_</div>
         <div class="carousel-item active  car__1 color-teal">
           <img src="img/presntacion-pequesopcional.jpg" class="d-block w-100" widht="100" height="600" alt="...">
+         <div class="color-teal">_</div>
         </div>
-        <div class="color-brown">brown</div>
+        <div class="color-brown">_</div>
         <div class="carousel-item car__2 color-brown">
           <img src="img/buzo-mascota2.jfif" class="d-block w-100" widht="100" height="600" alt="...">
+          <div class="color-brown">_</div>
         </div>
-        <div class="color-yellow">yellow</div>
+        <div class="color-yellow">_</div>
         <div class="carousel-item car__3 color-yellow">
           <img src="img/campera1.jpeg" class="d-block w-100" widht="100" height="600" alt="...">
+          <div class="color-yellow">_</div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -105,7 +118,7 @@
     </div>
    
 
-    <h1 id="titulo">BIENVESTI2</h1>
+    <h1 class="titulo">BIENVESTI2</h1>
 
     
 <div class="conteiner-fluid">
@@ -158,7 +171,7 @@
     
    
   <h2 id="peques">Para los peques</h2>
-    <div class="container-fluid">
+    <div class="contenedorellos">
     
       <a href="paralospeques.html" alt="ropainfantil"><img src="img/peques-presentacion3.jpg " target="_blank" class="itempeques img-thumbnail img-fluid"  id="itempeque1"></a>
       <a href="paralospeques.html" alt="ropainfantil"><img src="img/peques-presentacion.jpg" class="itempeques img-thumbnail  img-fluid" id="itempeques2"target="_blank" alt="ropainfantil"></a>
@@ -175,7 +188,7 @@
         <a href="paralasmascotas.html" alt="ropaparamascotas"><img src="img/mascota-presentacion2.jfif" class="itemmascotas rounded-circle img-fluid" id="itemmascotas2" target="_blank" alt="ropamascotas"></a>
         <a href="paralasmascotas.html" alt="ropaparamascotas"><img src="img/mascota-presentacion.jfif" class= "itemmascotas rounded-circle img-fluid" id="itemmascotas3"target="_blank"alt="ropamascotas"></a>
         
-       </div>
+      </div>
      
 
       
@@ -256,9 +269,9 @@
  
 <h2>Nuestros local mas cercano...</h2>
 
-<div class="col-xs-6 col-lg-12">
+<div class="col-xs-6 col-lg-6">
 <div class="row">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210290.12971121597!2d-58.903038226020904!3d-34.55904228284829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca3c89373656b%3A0x7f1451284d5d5b94!2sDeposito%20Falabella!5e0!3m2!1ses-419!2sar!4v1624848000855!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210290.12971121597!2d-58.903038226020904!3d-34.55904228284829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca3c89373656b%3A0x7f1451284d5d5b94!2sDeposito%20Falabella!5e0!3m2!1ses-419!2sar!4v1624848000855!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 
  

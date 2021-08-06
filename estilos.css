@@ -27,7 +27,7 @@
 
 /*finalizo metodologia bem*/
 .main {
-  margin-top: 80px !important;
+  margin-bottom: 80px !important;
 }
 
 /*estilo carousel*/
@@ -100,12 +100,7 @@
 }
 
 /*estilo nav*/
-.navbar {
-  position: fixed;
-}
-
 .navbar-nav {
-  color: brown;
   text-transform: capitalize;
   margin: 2em;
 }
@@ -314,7 +309,7 @@ iframe {
   height: 400px;
   display: -ms-grid;
   display: grid;
-  background-color: firebrick;
+  /*background-color:rgb(178, 34, 34);*/
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
